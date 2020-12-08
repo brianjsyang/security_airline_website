@@ -1,0 +1,39 @@
+INSERT INTO branch
+VALUES 
+(0, 'ADMIN'),
+(1, 'HQ'),
+(2, 'BR1'),
+(3, 'BR2');
+
+INSERT INTO users
+VALUES (1, 'admin', '$2y$10$r4vmpsqsrrE7eWcFKvirMuUNMux9SSMid1uTovlKnQcXzj/yQPTMm', 'admin@abcairline.com', 0);
+
+INSERT INTO pub_key
+VALUES (1, '-----BEGIN PUBLIC KEY-----
+MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAztm6RVPJW63rwS833SLF
+YAGLB2TGl3+xKl3VO3WOuirkGobn45ZjmDnL0JxVpE4Xzl9mqWB6PRP4BjPd1Y7b
+OLFaLdjtWuoOuR/1WOJkjpZCpGMXsQ0XdrgFsLUX/UpuKs8fxUoDY0Jl/ys5e8Uv
+oUGf9KmxPu6WG44D/vS1IcnrdyFYYmN1SWkGBP+tSM9tHCzCJu+IKkIfQD+s+3Sr
+aFyzB/9rdgsGSEmRNBtT+zzz7kNsk7C3g6RePrYWtD2EzorOtcF95K3w5BEvbDyn
+R9rLIlrYb4GdwnoUfK3UmR4zAMh+QVr17p0bfaUQh73gCMt6CwMCroh4z5LHJJOt
+X9FuFZMkUEUGAZNooAl4i6aJpOQLgH2jegHJoiZ0uEd9keavsEOmLmZvyFjN+imm
+z87OvQxTBSLUUdh7q9XxpnhT7NVdrmEU7jAFJmoNnA6naZQv9ckZYBMY/emFHGxS
+foVS/m6lpXqDqCjBU6Zl33C0PAGJgr0+1I9mSyfQ5IzLWZW+tie/Xc+AWmVU2d2P
+yi2Coj7tqPKKqzc1sZuyr30Ryzq7G+Fz0dVd4999Y+A3dGSKlfVySnUuHLYTyCsQ
+7Q3mluq5QWFANK/wsUI9VFlZ797o/deTFKmTrhYeYIvgR5zUZLfMDpOjxmwZdIuY
+ikLVKiFWS3wOOJN5CELkgVsCAwEAAQ==
+-----END PUBLIC KEY-----');
+
+INSERT INTO ac_maint
+VALUES 
+('C-GWIL', 'Airbus 220', '2020/01/20', '2020/02/20', 1),
+('C-GADN', 'Boeing 737', '2020/01/15', '2020/02/15', 1),
+('C-FTXI', 'Boeing 737', '2020/01/27', '2020/02/27', 2),
+('C-FFMI', 'Airbus 220', '2020/01/16', '2020/02/16', 3),
+('C-FXTZ', 'Airbus 220', '2020/04/03', '2020/05/04', 2),
+('C-FABD', 'Airbus 220', '2020/04/09', '2020/05/10', 2),
+('C-FOIQ', 'Boeing 737', '2020/03/19', '2020/04/20', 2),
+('C-GRHZ', 'Airbus 220', '2020/04/23', '2020/05/22', 3),
+('C-GAQN', 'Airbus 220', '2020/05/11', '2020/05/30', 3),
+('C-FLRV', 'Boeing 737', '2020/04/22', '2020/05/09', 3),
+('C-GEDX', 'Airbus 220', '2020/05/01', '2020/05/29', 1);
