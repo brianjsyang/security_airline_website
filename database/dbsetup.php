@@ -8,7 +8,7 @@
 
             //$connectionString = "mysql:dbhost=" . DBHOST . "; dbname =" . DBNAME;
             $dbuser = DBUSER;
-            $dbpass = DBPASS;
+            $dbpass = '';
             $dsn = DSN;
 
             $options = array(PDO::ATTR_PERSISTENT =>true);
