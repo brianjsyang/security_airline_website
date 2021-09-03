@@ -41,6 +41,6 @@ How to Make It Work:
 5. Click import function on the top right corner.
 6. Import create_tables.sql from abc_airline/database/abc_airline_sql to abc_airline db.
 7. Import insert_tables.sql from abc_airline/database/abc_airline_sql.
-8. From a browser, access index page by localhost/abc_airline/index.html.
+8. From a browser, access index page by localhost/security_airline_website/templates.
 9. Log in with admin account. ID: admin/ Pass: adminpass.
 10. Admin account are allowed to create new account. Create new account and log in to the new account to see different features for normal employees
